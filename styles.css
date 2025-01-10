@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.balance-info {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.balance-info p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#depositButton {
+  background-color: #28a745;
+  color: white;
+}
+
+#depositButton:hover {
+  background-color: #218838;
+}
+
+#withdrawButton {
+  background-color: #dc3545;
+  color: white;
+}
+
+#withdrawButton:hover {
+  background-color: #c82333;
+}
