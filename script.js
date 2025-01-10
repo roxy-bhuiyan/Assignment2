@@ -1,4 +1,4 @@
-// Get references to DOM elements
+// references to DOM elements
 const amountInput = document.getElementById('amountInput');
 const depositButton = document.getElementById('depositButton');
 const withdrawButton = document.getElementById('withdrawButton');
@@ -18,7 +18,7 @@ function updateUI() {
   totalBalance.textContent = `$${balance.toFixed(2)}`;
 }
 
-// Function to handle Deposit
+// Deposit Function
 function handleDeposit() {
   const amount = parseFloat(amountInput.value);
 
@@ -33,7 +33,7 @@ function handleDeposit() {
   amountInput.value = '';
 }
 
-// Function to handle Withdraw
+// Withdraw Function
 function handleWithdraw() {
   const amount = parseFloat(amountInput.value);
 
@@ -53,6 +53,6 @@ function handleWithdraw() {
   amountInput.value = '';
 }
 
-// Add event listeners
+// Add event
 depositButton.addEventListener('click', handleDeposit);
 withdrawButton.addEventListener('click', handleWithdraw);
